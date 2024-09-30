@@ -1,0 +1,7 @@
+export const load = async ({ fetch, data }) => {
+  return {
+    title: 'Hello world!',
+    content: 'Welcome to our blog. Lorem ipsum dolor sit amet...',
+    joke: data.item,
+  };
+}
