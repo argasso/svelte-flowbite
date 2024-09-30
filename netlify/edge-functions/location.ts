@@ -10,4 +10,4 @@ export default (_request: Request, context: Context) => {
 	return Response.json({ ip, city, country });
 };
 
-// export const config = { path: "/location" }
+export const config = { path: "/asdfasdf" }
